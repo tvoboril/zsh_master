@@ -2,7 +2,6 @@
 
 mkdir ~/.font
 cp *.ttf ~/.font/.
-fc-cache -f -v
 
 sudo gem install colorls
 
@@ -14,5 +13,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 cp zshrc ~/.zshrc
 cp p10k.zsh ~/.p10k.zsh
-source ~/.zshrc
+zsh
 
