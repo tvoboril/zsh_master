@@ -269,7 +269,7 @@ alias kgdep='kubectl get deployments'
 # kubectl misc
 alias kl='kubectl logs'
 alias kei='kubectl exec -it'
-
+alias ctx='kubectl config use-context'
 compdef __start_kubectl k
 
  # kubeconfig cluster mess$
